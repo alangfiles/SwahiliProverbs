@@ -95,18 +95,20 @@
     <script src="proverbs.js"></script>
     <script>
     var currentProverb;
-    var currentColor;
-    var colorList = ["#75D6FF", "#BD5CFE", "#4BFE78", "#FF4AFF", "#FF4848", "#FFFF84", "#AAFD8E ", "#D6F8DE", "#C79BF2"]
 
     function returnUniqueRandomFromArray(array, current){
       array.sort(function(){return 0.5-Math.random()});
       return array[0]==current?array[1]:array[0];
     }
+      
+    function generatePastel(){
+      var hue = Math.round(Math.random() * 360);
+      return 'hsl(' + hue + ', 100%, 87%)';
+    }
     
     function displayProverb(){
       currentProverb = returnUniqueRandomFromArray(proverbs, currentProverb);
-      currentColor = returnUniqueRandomFromArray(colorList, currentColor);
-      document.getElementsByTagName("html")[0].style.backgroundColor = currentColor;
+      document.getElementsByTagName("html")[0].style.backgroundColor = generatePastel();
       document.getElementById("proverb").innerHTML = "<p title='"+currentProverb.literal+"' >"+currentProverb.swahili+"</p>";
     }
 
