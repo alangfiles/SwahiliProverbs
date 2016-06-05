@@ -109,7 +109,7 @@
     function displayProverb(){
       currentProverb = returnUniqueRandomFromArray(proverbs, currentProverb);
       document.getElementsByTagName("html")[0].style.backgroundColor = generatePastel();
-      document.getElementById("proverb").innerHTML = "<p title='"+currentProverb.literal+"' >"+currentProverb.swahili+"</p>";
+      document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>";
     }
 
     document.getElementById("new-proverb").addEventListener("click", displayProverb);
