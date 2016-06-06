@@ -95,6 +95,7 @@
     <script src="proverbs.js"></script>
     <script>
     var currentProverb;
+    var swahiliTranslation = true;
 
     function returnUniqueRandomFromArray(array, current){
       array.sort(function(){return 0.5-Math.random()});
@@ -105,17 +106,60 @@
       var hue = Math.round(Math.random() * 360);
       return 'hsl(' + hue + ', 100%, 87%)';
     }
+
+    function translateProverb(){
+      if(swahiliTranslation){
+        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.swahili+"\" >"+currentProverb.literal+"</p>";    
+      }
+      else{
+        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>";
+      }
+      swahiliTranslation = !swahiliTranslation;
+    }
     
     function displayProverb(){
       currentProverb = returnUniqueRandomFromArray(proverbs, currentProverb);
       document.getElementsByTagName("html")[0].style.backgroundColor = generatePastel();
       document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>";
+     
     }
 
     document.getElementById("new-proverb").addEventListener("click", displayProverb);
-    document.getElementsByTagName("html")[0].addEventListener("keyup", function(e){if(e.keyCode==82){displayProverb()}});
+    document.getElementById("proverb").addEventListener("click", translateProverb);
+    document.getElementsByTagName("html")[0].addEventListener("keyend", function(e){if(e.keyCode==82){displayProverb()}});
 
     displayProverb();
+
+
+    document.addEventListener('touchstart', touchStart, false);        
+    document.addEventListener('touchmove', touchMove, false);
+
+    var xstart = null;                                                        
+    var ystart = null;                                                        
+
+    function touchStart(evt) {                                         
+        xstart = evt.touches[0].clientX; ystart = evt.touches[0].clientY;                                      
+    };                                                
+
+function touchMove(evt) {
+    if ( ! xstart || ! ystart ) {return;}
+
+    var xend = evt.touches[0].clientX; var yend = evt.touches[0].clientY;
+
+    var xDiff = xstart - xend; var yDiff = ystart - yend;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
+        if ( xDiff > 0 ) {
+            /* left swipe */ 
+            displayProverb();
+        } else {
+            /* right swipe */
+        }                       
+    } 
+    /* reset values */
+    xstart = null; ystart = null;                                             
+};
+
 
     </script>
   </body>
