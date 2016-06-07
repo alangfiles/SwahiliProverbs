@@ -36,7 +36,7 @@ var proverbs = [
  },
  {
    "swahili":"Pole pole ndio mwendo.",
-   "literal":"Slowness is the (better) locomotion.",
+   "literal":"Slowness is the (better) movement.",
    "english":"Sometimes it is advisable to proceed slowly in order to avoid misfortune."
  },
  {
@@ -171,7 +171,7 @@ var proverbs = [
  },
  {
    "swahili":"Kukopa harusi, kulipa matanga.",
-   "literal":"Borrowing (money) is (like) a wedding, paying back is (like) a mourning period.",
+   "literal":"Borrowing (money) is a wedding, paying back is a mourning period.",
    "english":"Everybody enjoys borrowing money, but repaying is always very agonizing."
  },
  {
@@ -256,8 +256,8 @@ var proverbs = [
  },
  {
    "swahili":"Kuku mgeni hakosi kamba mguuni.",
-   "literal":"A new hen always has a string on one leg (because it is not familiar with its new environment).",
-   "english":"There is always something which betrays inexperienced people."
+   "literal":"A new hen always has a string on one leg.",
+   "english":"There is always something which betrays inexperienced people.  (because it is not familiar with its new environment)"
  },
  {
    "swahili":"Macho hayana pazia.",
@@ -306,7 +306,7 @@ var proverbs = [
  },
  {
    "swahili":"Dua la kuku halimpati mwewe.",
-   "literal":"A hen\'s prayer does affect a hawk/falcon (which swoops down to grab chicks).",
+   "literal":"A hen\'s prayer does affect a hawk.",
    "english":"It is no use to swear at the mighty."
  },
  {
@@ -333,11 +333,6 @@ var proverbs = [
    "swahili":"Bandu bandu humaliza gogo.",
    "literal":"An incessant 'bandu' (wooden splinter or the noise of a log being hacked) finishes the log.",
    "english":"If you would like to maintain or preserve something don\'t take away small quantities at a time because eventually there will be nothing left."
- },
- {
-   "swahili":"Fimbo ya mbali haiui nyoka.",
-   "literal":"A remote stick doesn\'t kill a snake.",
-   "english":"You can only effect something by being on location or using the means available. That is to say, remote control is not very effective."
  },
  {
    "swahili":"Waarabu wa Pemba huelewana kwa vilemba.",
@@ -376,7 +371,7 @@ var proverbs = [
  },
  {
    "swahili":"Samaki mkunje angali mbichi.",
-   "literal":"Bend a fish while it is (still) fresh/wet.",
+   "literal":"Bend a fish while it is (still) fresh.",
    "english":"Children should be given guidance early in life (before it is too late)."
  },
  {
@@ -391,7 +386,7 @@ var proverbs = [
  },
  {
    "swahili":"Ndugu wakigombana, chukua jembe ukalime.",
-   "literal":":When relatives quarrel, take a hoe and go to cultivate (a farm).",
+   "literal":"When relatives quarrel, take a hoe and go to cultivate (a farm).",
    "english":"You shouldn\'t take sides when relatives quarrel because if they reconcile you will become a scapegoat :'He/She is the one who set us at odds!"
  },
  {
@@ -450,11 +445,6 @@ var proverbs = [
    "english":"Love should be reciprocal."
  },
  {
-   "swahili":"Aliye juu mngojee chini.",
-   "literal":"Wait at the bottom for the one who is at the top.",
-   "english":"?"
- },
- {
    "swahili":"Wengi wape.",
    "literal":"Give (everything) to the many.",
    "english":"You should let the majority prevail."
@@ -481,7 +471,7 @@ var proverbs = [
  },
  {
    "swahili":"Lila na fila havitangamani.",
-   "literal":"Lila and Fila (fictitious words/names) do not match.",
+   "literal":"Lila and Fila do not match.",
    "english":"God and evil are not compatible. You shouldn\'t try to mix oil with water."
  },
  {
@@ -535,11 +525,6 @@ var proverbs = [
    "english":"After completing a job, you shouldn\'t throw away the tools or utensils because you will certainly need them for another job. Always separate the wheat from the chaff. Don\'t throw out the baby with the bathwater."
  },
  {
-   "swahili":"Usitukane wakunga na uzazi ungalipo.",
-   "literal":"Don\'t insult the midwives as long as you are still able to bear children.",
-   "english":"Don\'t burn the bridges behind you."
- },
- {
    "swahili":"Majuto ni mjukuu.",
    "literal":"Regret is a grandchild.",
    "english":"Do not be reckless! (people regret only after something has happened to them.)"
@@ -551,7 +536,7 @@ var proverbs = [
  },
  {
    "swahili":"Fimbo ya mbali haiui nyoka.",
-   "literal":"A remote stick (far away) does not kill a snake (near you).",
+   "literal":"A remote stick does not kill a (near) snake.",
    "english":"A bird in the hand is worth two in the bush."
  },
  {
@@ -621,7 +606,7 @@ var proverbs = [
  },
  {
    "swahili":"Paka akionodoka panya hutawala.",
-   "literal":"When the cat has gone away, the mice rule/govern.",
+   "literal":"When the cat has gone away, the mice govern.",
    "english":"When the cat\'s away the mice will play."
  },
  {

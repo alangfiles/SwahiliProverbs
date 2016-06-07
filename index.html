@@ -6,8 +6,8 @@
       text-align: center;
       font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
+    
     #proverb{
-      padding-top:10%;
       font-size:80px;
     }
     #attribution{
@@ -88,14 +88,17 @@
     </style>
 	</head>
   <body>
-    <div id="proverb"></div>
-    <button class="btn btn-default" id="new-proverb">New Proverb</button>
+    <div id="content">
+      <div id="proverb"></div>
+      <button class="btn btn-default" id="new-proverb">New Proverb</button>
+    </div>
     <div id="attribution">Proverbs from <a href="http://www.kiswahili.net/3-reference-works/proverbs-and-riddles/proverbs-content.html">http://www.kiswahili.net/3-reference-works/proverbs-and-riddles/proverbs-content.html</a></div>
     
     <script src="proverbs.js"></script>
     <script>
     var currentProverb;
     var swahiliTranslation = true;
+    var proverbLength = proverbs.length;
 
     function returnUniqueRandomFromArray(array, current){
       array.sort(function(){return 0.5-Math.random()});
@@ -107,26 +110,29 @@
       return 'hsl(' + hue + ', 100%, 87%)';
     }
 
-    function translateProverb(){
-      if(swahiliTranslation){
-        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.swahili+"\" >"+currentProverb.literal+"</p>";    
-      }
-      else{
-        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>";
-      }
+    function changeTranslation(){
       swahiliTranslation = !swahiliTranslation;
+      printProverb();
     }
     
     function displayProverb(){
-      currentProverb = returnUniqueRandomFromArray(proverbs, currentProverb);
+      currentProverb = proverbs[Math.round(Math.random() * proverbLength)];
       document.getElementsByTagName("html")[0].style.backgroundColor = generatePastel();
-      document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>";
-     
+      printProverb();
+    }
+
+    function printProverb(){
+      if(swahiliTranslation){
+        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.literal+"\" >"+currentProverb.swahili+"</p>"; 
+      }
+      else{
+        document.getElementById("proverb").innerHTML = "<p title=\""+currentProverb.swahili+"\" >"+currentProverb.literal+"</p>";
+      }
     }
 
     document.getElementById("new-proverb").addEventListener("click", displayProverb);
-    document.getElementById("proverb").addEventListener("click", translateProverb);
-    document.getElementsByTagName("html")[0].addEventListener("keyend", function(e){if(e.keyCode==82){displayProverb()}});
+    document.getElementById("proverb").addEventListener("click", changeTranslation);
+    document.getElementsByTagName("html")[0].addEventListener("keyup", function(e){if(e.keyCode==82){displayProverb()}});
 
     displayProverb();
 
@@ -139,26 +145,26 @@
 
     function touchStart(evt) {                                         
         xstart = evt.touches[0].clientX; ystart = evt.touches[0].clientY;                                      
-    };                                                
+    }                                               
 
-function touchMove(evt) {
-    if ( ! xstart || ! ystart ) {return;}
+    function touchMove(evt) {
+        if ( ! xstart || ! ystart ) {return;}
 
-    var xend = evt.touches[0].clientX; var yend = evt.touches[0].clientY;
+        var xend = evt.touches[0].clientX; var yend = evt.touches[0].clientY;
 
-    var xDiff = xstart - xend; var yDiff = ystart - yend;
+        var xDiff = xstart - xend; var yDiff = ystart - yend;
 
-    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
-        if ( xDiff > 0 ) {
-            /* left swipe */ 
-            displayProverb();
-        } else {
-            /* right swipe */
-        }                       
-    } 
-    /* reset values */
-    xstart = null; ystart = null;                                             
-};
+        if (Math.abs(xDiff) > Math.abs(yDiff)) {
+          console.log(xDiff);
+            if (xDiff > 0){
+                //left swipe
+                displayProverb();
+            } else {
+                //right swipe
+            }                       
+        }
+        xstart = null; ystart = null;                                             
+    }
 
 
     </script>
