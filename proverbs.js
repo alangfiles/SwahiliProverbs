@@ -1,12 +1,12 @@
 var proverbs = [
  {
    "swahili":"Kipya kinyemi, kingawa kidonda.",
-   "literal":"A new (thing/item) is pleasant/interesting, even if it is wound/sore.",
+   "literal":"A new (thing) is pleasant/interesting, even if it is wound/sore.",
    "english":"To start with, every novelty sounds interesting even if in reality it isn\'t good or worth much."
  },
  {
    "swahili":"Dalili ya mvua ni mawingu.",
-   "literal":"The sign (i.e. precursor) of rain is clouds.",
+   "literal":"The sign of rain is clouds.",
    "english":"Pay attention to indications for something which is going to happen."
  },
  {
@@ -21,12 +21,12 @@ var proverbs = [
  },
  {
    "swahili":"Mtoto wa nyoka ni nyoka.",
-   "literal":"A snake\'s child (i.e. offspring) is (also) a snake.",
+   "literal":"A snake\'s child a snake.",
    "english":"?"
  },
  {
    "swahili":"Kutoa ni moyo, si utajiri.",
-   "literal":"Giving (i.e. donating) is only a matter of willingness and not of wealth.",
+   "literal":"Giving is only a matter of willingness and not of wealth.",
    "english":"Donating has more to do with willingness than wealth. Charity begins at home."
  },
  {
@@ -36,13 +36,13 @@ var proverbs = [
  },
  {
    "swahili":"Pole pole ndio mwendo.",
-   "literal":"Slowness is the (better) locomotion.",
+   "literal":"Slowness is the (better) movement.",
    "english":"Sometimes it is advisable to proceed slowly in order to avoid misfortune."
  },
  {
    "swahili":"Mwenda pole hajikwai.",
    "literal":"He who moves forward slowly does not trip.",
-   "english":"Those who proceed slowly (i.e. carefully) are unlikely to have accidents or fail."
+   "english":"Those who proceed slowly are unlikely to have accidents or fail."
  },
  {
    "swahili":"Maji yakimwagika hayazoleki.",
@@ -51,7 +51,7 @@ var proverbs = [
  },
  {
    "swahili":"Mvumilivu hula mbivu.",
-   "literal":"The patient one (i.e. a patient person) eats (i.e. reaps) ripe (things).",
+   "literal":"The patient one eats ripe (things).",
    "english":"Patience pays."
  },
  {
@@ -61,8 +61,8 @@ var proverbs = [
  },
  {
    "swahili":"Kidole kimoja hakivunji chawa.",
-   "literal":"One finger does not break (i.e. cannot kill/crush) a louse. ",
-   "english":"?"
+   "literal":"One finger does not break a louse. ",
+   "english":"It takes two to tango."
  },
  {
    "swahili":"Akili nyingi huondoa maarifa.",
@@ -96,7 +96,7 @@ var proverbs = [
  },
  {
    "swahili":"Kuuliza si ujinga.",
-   "literal":"Asking (questions) is not stupidity (i.e. if you ask questions it does not mean that you are stupid).",
+   "literal":"Asking (questions) is not stupidity.",
    "english":"If someone asks a question in order to get information then they should not be regarded as being stupid."
  },
  {
@@ -106,17 +106,17 @@ var proverbs = [
  },
  {
    "swahili":"Mwenye macho haambiwi tazama.",
-   "literal":"Anyone who has eyes (i.e. who can see) is not (i.e. will not be) told to look (around).",
+   "literal":"Anyone who has eyes is not told to look (around).",
    "english":"You needn\'t tell people to be aware of their environment."
  },
  {
    "swahili":"Mchagua jembe si mkulima.",
-   "literal":"Anyone who selects a (i.e. unnecessarily insists on using a specific) hoe is no farmer.",
+   "literal":"Anyone who selects a (specific) hoe is no farmer.",
    "english":"Anyone who is too choosy (in selecting the required tools), is in reality not willing to do anything."
  },
  {
    "swahili":"Asiyefunzwa na mamae hufunzwa na ulimwengu.",
-   "literal":"He who is not taught (i.e. properly brought up) by his/her mother, will be taught by the world.",
+   "literal":"He who is not taught by his/her mother, will be taught by the world.",
    "english":"If parents do not fulfil their obligation in properly guiding or bringing up a child, the child will have to learn everything the hard way."
  },
  {
@@ -171,7 +171,7 @@ var proverbs = [
  },
  {
    "swahili":"Kukopa harusi, kulipa matanga.",
-   "literal":"Borrowing (money) is (like) a wedding, paying back is (like) a mourning period.",
+   "literal":"Borrowing (money) is a wedding, paying back is a mourning period.",
    "english":"Everybody enjoys borrowing money, but repaying is always very agonizing."
  },
  {
@@ -196,7 +196,7 @@ var proverbs = [
  },
  {
    "swahili":"Mti hauendi ila kwa nyenzo.",
-   "literal":"A tree (i.e. log) does not move without (being moved by) a lever. ",
+   "literal":"A tree does not move without a lever. ",
    "english":"Do whatever is necessary in order to achieve something."
  },
  {
@@ -221,17 +221,17 @@ var proverbs = [
  },
  {
    "swahili":"Ukiona vyaelea, vimeundwa.",
-   "literal":"If you see them (i.e. certain things) floating, (know that) they were made/designed (otherwsie they would sink).",
+   "literal":"If you see them floating, they were made/designed.",
    "english":"Things don\'t function without having been carefully designed and manufactured."
  },
  {
    "swahili":"Mkono mtupu haulambwi.",
-   "literal":"An empty hand is not (i.e. cannot be) licked.",
+   "literal":"An empty hand is not licked.",
    "english":"If you don\'t have anything to offer, you won\'t have any friends."
  },
  {
    "swahili":"Ng\'ombe wa masikini hazai.",
-   "literal":"The cow of a poor person does not give birth (to offspring).",
+   "literal":"The cow of a poor person does not give birth.",
    "english":"The poor always remain poor."
  },
  {
@@ -256,8 +256,8 @@ var proverbs = [
  },
  {
    "swahili":"Kuku mgeni hakosi kamba mguuni.",
-   "literal":"A new hen always has a string on one leg (because it is not familiar with its new environment).",
-   "english":"There is always something which betrays inexperienced people."
+   "literal":"A new hen always has a string on one leg.",
+   "english":"There is always something which betrays inexperienced people.  (because it is not familiar with its new environment)"
  },
  {
    "swahili":"Macho hayana pazia.",
@@ -266,37 +266,37 @@ var proverbs = [
  },
  {
    "swahili":"Ngoja ngoja huumiza matumbo.",
-   "literal":"(The statement) - wait wait - damages the bowels.",
-   "english":"If you keep telling people to wait (unnecessarily) they won\'t like it."
+   "literal":"wait wait - damages the bowels.",
+   "english":"Time and tide wait for no man. If you keep telling people to wait (unnecessarily) they won\'t like it."
  },
  {
    "swahili":"Bendera hufuata upepo.",
-   "literal":"A flag follows (i.e. flutters according to) the wind.",
+   "literal":"A flag follows the wind.",
    "english":"People tend to adapt to their circumstances."
  },
  {
    "swahili":"Embe dodo sawa sawa na kisukari.",
-   "literal":"-ÿDodoÿ- (a type of mango) is just as good as -ÿkisukariÿ- (a type of banana).",
+   "literal":"Dodo (a type of mango) is just as good as kisukari (a type of banana).",
    "english":"Even if you get much less than, or something completely different from, what you expected you should still be grateful, because something is better than nothing."
  },
  {
    "swahili":"Siku njema huonekana asubuhi.",
-   "literal":"A good day is visible (i.e. evident) in the morning. ",
+   "literal":"A good day is visible in the morning. ",
    "english":"Often there is a sign of good things to come."
  },
  {
    "swahili":"Mpanda ovyo hula ovyo.",
-   "literal":"Anyone who plants/sows haphazardly, eats (i.e. reaps) haphazardly.;",
+   "literal":"Anyone who plants/sows haphazardly, eats haphazardly.;",
    "english":"You reap what you sowed. Garbage in, garbage out."
  },
  {
    "swahili":"Hasira ya mkizi ni furaha ya mvuvi.",
-   "literal":"The rage (i.e. wriggling) of a cuttle-fish is joy for the fisherman.",
+   "literal":"The rage of a cuttle-fish is joy for the fisherman.",
    "english":"Struggling blindly can be very counter-productive."
  },
  {
    "swahili":"Tembo wakigombana, nyasi ndizo huumia.",
-   "literal":"When elephants quarrel (i.e. fight each other) it is the grass which suffers.",
+   "literal":"When elephants quarrel it is the grass which suffers.",
    "english":"A confrontation between big shots affects the common man much more than those involved."
  },
  {
@@ -306,7 +306,7 @@ var proverbs = [
  },
  {
    "swahili":"Dua la kuku halimpati mwewe.",
-   "literal":"A hen\'s prayer does affect a hawk/falcon (which swoops down to grab chicks).",
+   "literal":"A hen\'s prayer does affect a hawk.",
    "english":"It is no use to swear at the mighty."
  },
  {
@@ -316,7 +316,7 @@ var proverbs = [
  },
  {
    "swahili":"Akufukuzaye hakwambii toka.",
-   "literal":"Anyone who chucks (i.e. is trying to chuck) you out, does not tell you to go away/out.",
+   "literal":"Anyone who chucks you out, does not tell you to go away/out.",
    "english":"There are indirect signs which indicate that you are unwelcome."
  },
  {
@@ -326,18 +326,13 @@ var proverbs = [
  },
  {
    "swahili":"Ada ya mja hunena, mwungwana ni kitendo.",
-   "literal":"The rite of a human being is to say something, (but) a gentleman is action (i.e. he acts instead of just talking).",
+   "literal":"The rite of a human being is to say something, (but) a gentleman is action.",
    "english":"A person\'s deeds are far more important than just empty talk. Actions speak louder than words."
  },
  {
    "swahili":"Bandu bandu humaliza gogo.",
-   "literal":"An incessantÿbanduÿ(wooden splinter or the noise of a log being hacked) finishes the log (i.e. finally there will be nothing left).",
+   "literal":"An incessant 'bandu' (wooden splinter or the noise of a log being hacked) finishes the log.",
    "english":"If you would like to maintain or preserve something don\'t take away small quantities at a time because eventually there will be nothing left."
- },
- {
-   "swahili":"Fimbo ya mbali haiui nyoka.",
-   "literal":"A remote stick doesn\'t kill a snake.",
-   "english":"You can only effect something by being on location or using the means available. That is to say, remote control is not very effective."
  },
  {
    "swahili":"Waarabu wa Pemba huelewana kwa vilemba.",
@@ -346,27 +341,27 @@ var proverbs = [
  },
  {
    "swahili":"Bahati mbaya haiji peke yake.",
-   "literal":"Bad luck (i.e. misfortune) does not come alone.",
+   "literal":"Bad luck does not come alone.",
    "english":"Quite often people are afflicted by more than just one misfortune."
  },
  {
    "swahili":"Kulea mimba si kazi, kazi ni kulea mwana.",
-   "literal":"Looking after a pregnancy is not work (i.e. difficult), it is work (i.e. much more difficult) to bring up a child.",
+   "literal":"Looking after a pregnancy is not work, it is work to bring up a child.",
    "english":"It is much more difficult to bring up a child than to bear a pregnancy."
  },
  {
    "swahili":"Avumaye baharini ni papa, lakini kumbe wengine wapo.",
-   "literal":"The one who roars in the ocean is a shark, but there are also some others (i.e. other types of fish).",
+   "literal":"The one who roars in the ocean is a shark, but there are also some others (fish).",
    "english":"Celebrities are not the only human beings."
  },
  {
    "swahili":"Debe tupu haliachi kuvuma.",
-   "literal":"An empty debe (a kind of square jerry can) does not stop roaring (i.e. making noise).",
+   "literal":"An empty debe (can) does not stop roaring.",
    "english":"Empty vessels make the most noise."
  },
  {
    "swahili":"Mpanda ngazi hushuka.",
-   "literal":"He who ascends a ladder/staircase (eventually) descends.",
+   "literal":"He who ascends a ladder (eventually) descends.",
    "english":"Success needn\'t last long. There are certain conditions which cannot be maintained."
  },
  {
@@ -376,7 +371,7 @@ var proverbs = [
  },
  {
    "swahili":"Samaki mkunje angali mbichi.",
-   "literal":"Bend a fish while it is (still) fresh/wet.",
+   "literal":"Bend a fish while it is (still) fresh.",
    "english":"Children should be given guidance early in life (before it is too late)."
  },
  {
@@ -391,8 +386,8 @@ var proverbs = [
  },
  {
    "swahili":"Ndugu wakigombana, chukua jembe ukalime.",
-   "literal":":When relatives/siblings quarrel, take a hoe and go to cultivate (a farm).",
-   "english":"You shouldn\'t take sides when relatives quarrel because if they reconcile you will become a scapegoat :ÿHe/She is the one who set us at odds!"
+   "literal":"When relatives quarrel, take a hoe and go to cultivate (a farm).",
+   "english":"You shouldn\'t take sides when relatives quarrel because if they reconcile you will become a scapegoat :'He/She is the one who set us at odds!"
  },
  {
    "swahili":"Mtoto akililia wembe, mpe!",
@@ -401,7 +396,7 @@ var proverbs = [
  },
  {
    "swahili":"Asiyekubali kushindwa si mshindani.",
-   "literal":"He who won\'t (from time to time) concede defeat (in a competition) is no competitor. ",
+   "literal":"He who won\'t concede defeat is no competitor. ",
    "english":"Defeat should be regarded as part of the game and not as a disgrace. You shouldn\'t compete too vehemently."
  },
  {
@@ -416,7 +411,7 @@ var proverbs = [
  },
  {
    "swahili":"Dawa ya moto ni moto.",
-   "literal":"The medicine/remedy (i.e. antidote) for/against fire is fire.;",
+   "literal":"The medicine for fire is fire.",
    "english":"?"
  },
  {
@@ -431,32 +426,27 @@ var proverbs = [
  },
  {
    "swahili":"Pilipili usiyoila yakuwashiani?",
-   "literal":"How come that the pepper/chilli which you are not eating (but which you probably can see) is too hot for you?",
-   "english":"?"
+   "literal":"How come that the pepper which you are not eating is too hot for you?",
+   "english":"Mind your own business."
  },
  {
    "swahili":"Huwezi kula ng\'ombe mzima halafu ukasema mkia umekushinda.",
-   "literal":"You cannot eat a whole ox/cow and then finally say you are unable to finish the tail.",
+   "literal":"You cannot eat a whole cow and then finally say you are unable to finish the tail.",
    "english":"After a feat, you shouldn\'t say you cannot manage the finishing touches."
  },
  {
    "swahili":"Usimwage mchele mbele ya kuku.",
-   "literal":"Don\'t spill (scatter) rice in front of chickens.",
+   "literal":"Don\'t spill rice in front of chickens.",
    "english":"Don\'t spill the beans."
  },
  {
    "swahili":"Mpende akupandaye.",
-   "literal":"Love (only) the one who loves you..",
+   "literal":"Love the one who loves you.",
    "english":"Love should be reciprocal."
  },
  {
-   "swahili":"Aliye juu mngojee chini.",
-   "literal":"Wait at the bottom for the one who is at the top.",
-   "english":"?"
- },
- {
    "swahili":"Wengi wape.",
-   "literal":"Give (everything) to the many (i.e. the majority).",
+   "literal":"Give (everything) to the many.",
    "english":"You should let the majority prevail."
  },
  {
@@ -471,17 +461,17 @@ var proverbs = [
  },
  {
    "swahili":"Mwenye nguvu mpishe.",
-   "literal":"Make way for the strong one (i.e. person).",
+   "literal":"Make way for the strong one.",
    "english":"Let brutes have their way. Sooner or later they will come down to earth. Brain is better than brawn."
  },
  {
    "swahili":"Mgeni siku ya kwanza, siku ya pili mpe jembe akalime.",
-   "literal":"A guest/visitor (is a guest) only on the first day. On the second day give him a hoe so that he can go to cultivate (a field).",
+   "literal":"One is a guest only on the first day. On the second day give him a hoe so that he can farm (do work).",
    "english":"After enjoying the initial period/hospitality, visitors should take on a few chores."
  },
  {
    "swahili":"Lila na fila havitangamani.",
-   "literal":"Lila and Fila (fictitious words/names) do not match.",
+   "literal":"Lila and Fila do not match.",
    "english":"God and evil are not compatible. You shouldn\'t try to mix oil with water."
  },
  {
@@ -501,17 +491,17 @@ var proverbs = [
  },
  {
    "swahili":"Asiyesikia la mkuu, huvunjika guu.",
-   "literal":"He who does not heed the chief\'s advice, breaks his leg/foot. ",
+   "literal":"He who does not heed the chief\'s advice, breaks his leg. ",
    "english":"If you ignore expert advice/guidance, ill might befall you. Don\'t be reckless."
  },
  {
    "swahili":"Usipoziba ufa, utajenga ukuta.",
-   "literal":"If you don\'t seal a crack (in the wall), you will (have to) (re)build (an entire) wall.",
+   "literal":"If you don\'t seal a crack, you will (re)build a wall.",
    "english":"?"
  },
  {
    "swahili":"Usichague mchumba siku ya Idi.",
-   "literal":"Do not select a fiancee/fiance during the day of Eid (a Muslim Festival)",
+   "literal":"Do not select a fiancee/fiance during the day of Eid (festival).",
    "english":"During a festival everyone is well-groomed, such that you cannot judge a person\'s true character. Don\'t judge a book by its cover."
  },
  {
@@ -521,37 +511,32 @@ var proverbs = [
  },
  {
    "swahili":"Mkuki kwa nguruwe, kwa mwanadamu uchungu.",
-   "literal":"A spear (should only be used) against a pig, for human beings it is very painful.",
+   "literal":"A spear for a pig, for human beings it is very painful.",
    "english":"It is easy to harm others, but very painful if you are given a taste of your own medicine. Do unto others, as you would have done to you."
  },
  {
    "swahili":"Bahati ya mwenzio usiilalie mlango wazi.",
-   "literal":"Do not leave the (front) door open and go to bed just because someone you know did the same thing but nothing happened to him.",
+   "literal":"Do not leave the door open and go to bed just because someone you know did the same thing but nothing happened to him.",
    "english":"Don\'t be reckless just because others were lucky."
  },
  {
    "swahili":"Usitupe jongoo na mti wake.",
-   "literal":"Do not throw away a centipede/millipede together with its stick!",
+   "literal":"Do not throw away a centipede together with its stick!",
    "english":"After completing a job, you shouldn\'t throw away the tools or utensils because you will certainly need them for another job. Always separate the wheat from the chaff. Don\'t throw out the baby with the bathwater."
  },
  {
-   "swahili":"Usitukane wakunga na uzazi ungalipo.",
-   "literal":"Don\'t insult the midwives as long as you are still able to bear children.",
-   "english":"Don\'t burn the bridges behind you."
- },
- {
    "swahili":"Majuto ni mjukuu.",
-   "literal":"Regret(ing) is a grandchild. (In other words, people regret only after something has happened to them.)",
-   "english":"Do not be reckless!"
+   "literal":"Regret is a grandchild.",
+   "english":"Do not be reckless! (people regret only after something has happened to them.)"
  },
  {
    "swahili":"Anayefikiri amesimama, aangalie asianguke.",
-   "literal":"He who thinks he is standing (stably), should be on his guard not to fall down.",
+   "literal":"He who thinks he is standing, should be on his guard not to fall down.",
    "english":"Even after taking all the necessary precautions, don\'t be careless."
  },
  {
    "swahili":"Fimbo ya mbali haiui nyoka.",
-   "literal":"A remote stick (i.e. one which is far away) does not (i.e. cannot) kill a snake (near you).",
+   "literal":"A remote stick does not kill a (near) snake.",
    "english":"A bird in the hand is worth two in the bush."
  },
  {
@@ -561,32 +546,22 @@ var proverbs = [
  },
  {
    "swahili":"Ada ya mja hunena, mwungwana ni kitendo.",
-   "literal":"The fee/present of (i.e. given by) a person is to talk, (but) a gentleman is deed/action (i.e. a gentleman acts)",
+   "literal":"The fee/present of a person is to talk, (but) a gentleman is action",
    "english":"Actions speak louder than words."
  },
  {
    "swahili":"Mfa maji haachi kutapatapa.",
-   "literal":"A drowning person does not stop thrashing about/around.",
+   "literal":"A drowning person does not stop thrashing around.",
    "english":"A drowning man will catch at a straw."
  },
  {
    "swahili":"Subira huvuta heri.",
-   "literal":"Patience pulls (i.e. attracts) success.",
+   "literal":"Patience pulls success.",
    "english":"All good things come to those who wait."
  },
  {
-   "swahili":"Usipoziba ufa utajenga ukuta.",
-   "literal":"If you don\'t seal a crack (in the wall), you will (have to) (re)build a (complete) wall.",
-   "english":"A stitch in time saves nine."
- },
- {
-   "swahili":"Mpanda ovyo, hula ovyo.",
-   "literal":"He who sows haphazardly, eats (i.e. reaps) haphazardly.",
-   "english":"As you sow, so you shall reap."
- },
- {
    "swahili":"Kawia ufike.",
-   "literal":"Delay so that you may arrive (i.e. reach your destination).",
+   "literal":"Delay so that you may arrive.",
    "english":"Better late than never."
  },
  {
@@ -595,23 +570,8 @@ var proverbs = [
    "english":"Blood is thicker than water."
  },
  {
-   "swahili":"Mwenye nguvu mpishe.",
-   "literal":"Give way to the strong one/person.",
-   "english":"Brain is better than brawn."
- },
- {
-   "swahili":"Kutoa ni moyo, si utajiri.",
-   "literal":"Donating (money) is only a matter of willingness and not wealth.",
-   "english":"Charity begins at home."
- },
- {
-   "swahili":"Usichague mchumba siku ya Idi.",
-   "literal":"Don\'t select a fiance/fiancee during an Eid/Id day (i.e. a festival).",
-   "english":"Clothes don\'t make the man."
- },
- {
    "swahili":"Usitukane wakunga na uzazi ungalipo.",
-   "literal":"Don\'t insult (the) midwives as long as you are still able to give birth. ",
+   "literal":"Don\'t insult midwives as long as you are still able to give birth. ",
    "english":"Don\'t burn the bridges behind you."
  },
  {
@@ -620,64 +580,9 @@ var proverbs = [
    "english":"Don\'t cry over spilt milk."
  },
  {
-   "swahili":"Usitupe jongoo na mti wake.",
-   "literal":"Don\'t throw away a centipede/millipede (together) with its stick.",
-   "english":"Don\'t throw out the baby with the bathwater."
- },
- {
-   "swahili":"Mkuki kwa nguruwe, kwa mwanadamu uchungu.",
-   "literal":"A spear is only (to be used) against a pig; against a human being it is painful.",
-   "english":"Do unto others, as you would have done to you."
- },
- {
-   "swahili":"Debe tupu haliachi kuvuma.",
-   "literal":"An empty debe (a kind of square jerry can) does not stop making noise.",
-   "english":"Empty vessels make the most noise."
- },
- {
-   "swahili":"Mpanda ovyo, hula ovyo.",
-   "literal":"He who sows haphazardly, eats (i.e. reaps) haphazardly.",
-   "english":"Garbage in, garbage out."
- },
- {
-   "swahili":"Haraka haraka haina baraka.",
-   "literal":"Haste haste has no blessing.",
-   "english":"Great haste makes great waste."
- },
- {
-   "swahili":"Kawaida ni kama sheria.",
-   "literal":"A custom is like a law.",
-   "english":"Habit is second nature."
- },
- {
-   "swahili":"Haraka haraka haina baraka.",
-   "literal":"Haste haste has no blessing.",
-   "english":"Haste makes waste."
- },
- {
-   "swahili":"Ukitaka kula nguruwe, kula aliyenona.",
-   "literal":"If you want to eat a(n entire) pig, eat a fat one.",
-   "english":"In for a penny, in for a pound."
- },
- {
-   "swahili":"Maji yakimwagika hayazoleki.",
-   "literal":"If water has been spilt, it cannot be scooped up.",
-   "english":"It is no use crying over spilt milk."
- },
- {
-   "swahili":"Kidole kimoja hakivunji chawa.",
-   "literal":"A single finger does not (i.e. cannot) break (i.e. crush/kill) a louse.",
-   "english":"It takes two to tango."
- },
- {
    "swahili":"Usichokoze nyuki.",
-   "literal":"Don\'t provoke (the) bees.",
+   "literal":"Don\'t provoke bees.",
    "english":"Let sleeping dogs lie."
- },
- {
-   "swahili":"Mtoto wa nyoka ni nyoka.",
-   "literal":"The child (i.e. offspring) of a snake, is (also) a snake (that\'s to say: evil is inherited).",
-   "english":"Like father like son."
  },
  {
    "swahili":"Umoja ni nguvu, utengano ni udhaifu.",
@@ -685,53 +590,13 @@ var proverbs = [
    "english":"Many hands make light work."
  },
  {
-   "swahili":"Pilipili usiyoila yakuwashiani?",
-   "literal":"How come that the pepper/chilli which you are not eating (but which you probably can see) is too hot for you?",
-   "english":"Mind your own business."
- },
- {
-   "swahili":"Usichague mchumba siku ya Idi.",
-   "literal":"Don\'t select a fiance/fiancee during an Eid/Id day (i.e. a festival).",
-   "english":"Never judge a book by its cover."
- },
- {
-   "swahili":"Asiyekuwepo na lake halipo.",
-   "literal":"He who isn\'t around, his (share) isn\'t around (either). (This is to make sure that people don\'t miss events ? e.g. meetings ? unnecessarily.)",
-   "english":"Out of sight, out of mind."
- },
- {
-   "swahili":"Dawa ya moto ni moto.",
-   "literal":"The medicine (i.e. antidote) for/against fire is fire. ",
-   "english":"Send a thief to catch a thief."
- },
- {
-   "swahili":"Embe dodo sawa sawa na kisukari.",
-   "literal":"Aÿdodoÿ(a type of mango) is the same as (i.e. just as good as) aÿkisukariÿ(a type of banana). (Don\'t be too choosy!)",
-   "english":"Something is better than nothing."
- },
- {
    "swahili":"Panapofuka moshi pana moto.",
-   "literal":"Where smoke is being generated, there is a fire.",
+   "literal":"Where smoke is being generated, there is fire.",
    "english":"There is no smoke without fire."
  },
  {
-   "swahili":"Wapishi wengi huharibu mchuzi.",
-   "literal":"(Too) Many cooks spoil the sauce/gravy/broth.",
-   "english":"Too many cooks spoil the broth."
- },
- {
-   "swahili":"Ngoja ngoja huumiza matumbo.",
-   "literal":"Wait wait hurts the entrails.",
-   "english":"Time and tide wait for no man."
- },
- {
-   "swahili":"Kumwaga mchele mbele ya kuku.",
-   "literal":"To spill (scatter) rice in front of chickens.",
-   "english":"To spill the beans."
- },
- {
    "swahili":"Njia ya mwongo ni fupi.",
-   "literal":"The path/route of a liar is short.",
+   "literal":"The path of a liar is short.",
    "english":"Truth will out."
  },
  {
@@ -741,17 +606,17 @@ var proverbs = [
  },
  {
    "swahili":"Paka akionodoka panya hutawala.",
-   "literal":"When the cat has gone away, the mice rule/govern/prevail.",
+   "literal":"When the cat has gone away, the mice govern.",
    "english":"When the cat\'s away the mice will play."
  },
  {
    "swahili":"Penye nia pana njia.",
-   "literal":"Where there is a will/an intention, there is a way.",
+   "literal":"Where there is a will, there is a way.",
    "english":"Where there is a will there is also a way."
  },
  {
    "swahili":"Elimu haina mwisho.",
-   "literal":"Education has no end(ing).",
+   "literal":"Education has no end.",
    "english":"You are never too old to learn."
  }
 ];
